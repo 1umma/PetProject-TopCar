@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PedProject.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>PedProject</title>
+    <style>
+        body {
+            background-color: rgba(29, 28, 27, 1);
+            color: rgba(255, 255, 255, 1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="site_header">
+            <div class="site_text">
+                <h1>
+                    <img src="https://www.top-car.ru/assets/img/logo.png" alt="Логотип Porshe" width="80px"
+                        height="100px">
+                    TopCar Design
+                </h1>
+            </div>
+            <div class="navigator">
+                <a class="link" href="#aus">О нас</a>
+                <a class="link" href="#proekti">Наши проекты</a>
+                <a class="link" href="#yslugi">Услуги</a>
+                <a class="link" href="#experts">Эксперты</a>
+                <a class="link" href="#contacts">Контакты</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section_1">
+        <div class="main_container">
+            <h1 id="aus" class="zagolovok">Тюнинг ателье TOPCAR</h1>
+            <p class="text">TopCar Design — международная компания по разработке и производству компонентов тюнинга
+                автомобилей люкс-класса с собственным уникальным дизайном. Компания существует с 2004 года, входит в
+                пятерку ведущих мировых тюнинг-ателье и на данный момент имеет свои представительства в более чем 40
+                странах мира. В 2004 году, во времена, когда мир тюнинга люксовых автомобилей только проходил своё
+                становление, команда энтузиастов основала компанию TopCar Design. С тех пор команда компании начала
+                доводить серийные фабричные люксовые автомобили до идеала, делая их уникальными и позволяя взыскательным
+                клиентам иметь индивидуальный дизайн автомобиля, а также улучшать его отдельные характеристики.</p>
+        </div>
+    </section>
+
+    <section class="section_2">
+        <div class="main_container">
+            <h1 id="yslugi" class="zagolovok">Наши Услуги</h1>
+            <p class="text">Описание услуг, которые мы предлагаем, и какие из них могут быть интересны клиентам.
+            <ul>
+                <li><a href="Тюнинг двиги.html">1. Тюнинг двигателя</a></li>
+                <li><a href="кпп.html">2. Тюнинг трансмиссии</a></li>
+                <li><a href="внешка.html">3. Глобальные внешние изменения</a></li>
+                <li><a href="внутрянка.html">4. Изменение интерьера</a></li>
+                <li><a href="чип.html">5. Чип-тюнинг</a></li>
+            </ul>
+            </p>
+        </div>
+    </section>
+
+    <section class="section_3">
+        <div class="main_container">
+            <h1 id="proekti" class="zagolovok">Наши Проекты</h1>
+            <div class="container">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://top-car.ru/upload/gallery/big/b8317358eb8aa30eab0588bfa5dfe64b.jpg"
+                        class="card-img-top" alt="G-class (W463A) INFERNO">
+                    <div class="card-body">
+                        <p class="card-text"
+                            onclick="openPopup('G-class (W463A) INFERNO', 'https://top-car.ru/upload/gallery/big/b8317358eb8aa30eab0588bfa5dfe64b.jpg', 'Великолепный Mercedes G63 в полной комплектации Inferno из углеродного волокна от нашего дилера из Вьетнама')">
+                            Великолепный Mercedes G63 в полной комплектации Inferno
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.top-car.ru/upload/gallery/big/4ddb0e8ab4218aa2c417e3ac9efbc64f.jpg"
+                        class="card-img-top" alt="992 Stinger GTR Carbon Edition">
+                    <div class="card-body">
+                        <p class="card-text"
+                            onclick="openPopup('992 Stinger GTR Carbon Edition', 'https://www.top-car.ru/upload/gallery/big/4ddb0e8ab4218aa2c417e3ac9efbc64f.jpg', 'Porsche 992 Stinger GTR Deep black matte carbon - первый из 13 автомобилей в мире')">
+                            Porsche 992 Stinger GTR
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.top-car.ru/upload/gallery/big/4fbcd2c7f941d2bbc7bceaf99849c23b.jpg"
+                        class="card-img-top" alt="Lamborghini Urus Performante Full Carbon">
+                    <div class="card-body">
+                        <p class="card-text"
+                            onclick="openPopup('Lamborghini Urus Performante', 'https://www.top-car.ru/upload/gallery/big/4fbcd2c7f941d2bbc7bceaf99849c23b.jpg', 'Lamborghini Urus R’Evo Stealth Edition (1 из 13)')">
+                            Lamborghini Urus R’Evo Stealth Edition
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p class="text">Информация о наших успешных проектах и примеры выполненных работ.</p>
+        </div>
+    </section>
+    <section class="section_4">
+        <div class="main_container">
+            <h1 id="experts" class="zagolovok">Эксперты</h1>
+            <p class="text">Список наших основных экспертов</p>
+            <div class="flex-container">
+                <div class="flex-item"
+                    onclick="openPopup('Джейсон Стэтхем', 'Механик', 'Опытный механик с более чем 10-летним стажем, специализирующийся на восстановлении классических автомобилей.')">
+                    <img src="https://www.meme-arsenal.com/memes/1ac97606cc2fa34331ef618dcbebe266.jpg" class="human"
+                        alt="эксперт">
+                    <figcaption>
+                        <h2 class="name">Джейсон Стэтхем</h2>
+                        <span class="role">Механик</span>
+                    </figcaption>
+                </div>
+                <div class="flex-item"
+                    onclick="openPopup('Максим Тесак', 'Специалист по подвеске', 'Эксперт в области подвески автомобилей, помогает в настройке и ремонте подвесок для спортивных машин.')">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1282NassCrCm8Q6tX75c2mNZtWFPR_jlDTG8__wwVvnPNP58LBB4WZTNDsR7yOC_tw8&usqp=CAU"
+                        class="human" alt="эксперт">
+                    <figcaption>
+                        <h2 class="name">Максим Тесак</h2>
+                        <span class="role">Специалист по подвеске</span>
+                    </figcaption>
+                </div>
+                <div class="flex-item"
+                    onclick="openPopup('Тайлер Дерден', 'Маркетолог', 'Маркетолог с опытом работы в автомобильной отрасли, отвечает за стратегию продвижения и рекламы.')">
+                    <img src="https://i.pinimg.com/236x/fb/1f/51/fb1f5152618d3f9a8f16a1ff3ef33eb3.jpg" class="human"
+                        alt="эксперт">
+                    <figcaption>
+                        <h2 class="name">Тайлер Дерден</h2>
+                        <span class="role">Маркетолог</span>
+                    </figcaption>
+                </div>
+                <div class="flex-item"
+                    onclick="openPopup('Скала Джонсон', 'Специалист по отделке', 'Профессионал по отделке автомобилей, обеспечивает высококачественные отделочные работы и покраску.')">
+                    <img src="C:\Users\saneking\Desktop\photo_2024-10-26_00-06-58.jpg" class="human"
+                        alt="эксперт">
+                    <figcaption>
+                        <h2 class="name">Скала Джонсон</h2>
+                        <span class="role">Специалист по отделке</span>
+                    </figcaption>
+                </div>
+                <div class="flex-item"
+                    onclick="openPopup('Райан Гослинг', 'Электронщик', 'Электронщик с опытом работы в разработке электронных систем для автомобилей.')">
+                    <img src="https://otvet.imgsmail.ru/download/299248912_c11dc2ff2be54940cbc656677ecfc724_800.jpg"
+                        class="human" alt="эксперт">
+                    <figcaption>
+                        <h2 class="name">Райан Гослинг</h2>
+                        <span class="role">Электронщик</span>
+                    </figcaption>
+                </div>
+                <div class="flex-item"
+                    onclick="openPopup('Оскар Качанов', 'Тест-пилот', 'Тест-пилот с обширным опытом работы в тестировании новых моделей автомобилей.')">
+                    <img src="C:\Users\saneking\Desktop\photo_2024-09-06_00-10-46.jpg"
+                        class="human" alt="эксперт">
+                    <figcaption>
+                        <h2 class="name">Оскар Качанов</h2>
+                        <span class="role">Тест-пилот</span>
+                    </figcaption>
+                </div>
+                <div class="flex-item"
+                    onclick="openPopup('Паша Техник', 'Менеджер по продажам', 'Менеджер по продажам, который обеспечивает высокую эффективность процессов продаж и удовлетворенность клиентов.')">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUTCpbvnAIN-YzVy286kb8dbEkKBFkMLd_g&s"
+                        class="human" alt="эксперт">
+                    <figcaption>
+                        <h2 class="name">Паша Техник</h2>
+                        <span class="role">Глава отдела оптимизации</span>
+                    </figcaption>
+                </div>
+                <div class="flex-item"
+                    onclick="openPopup('Брайан Кренстон', 'Специалист по выхлопным системам', 'Специалист по выхлопным системам, занимается настройкой и ремонтом выхлопных систем для автомобилей.')">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC7nhrR2vYw1gZIl_Whi5_yhHX25jW-51Giuqn4cPeyfpJwYLy9RRU2DVmsJYNugKCuJM&usqp=CAU"
+                        class="human" alt="эксперт">
+                    <figcaption>
+                        <h2 class="name">Брайан Кренстон</h2>
+                        <span class="role">Специалист по выхлопным системам</span>
+                    </figcaption>
+                </div>
+                <div class="flex-item"
+                    onclick="openPopup('Доктор Но́рман Озборн', 'Техник по шиномонтажу и колесам', 'Техник по шиномонтажу, отвечает за установку и ремонт шин и колес автомобилей.')">
+                    <img src="C:\Users\saneking\Desktop\photo_2024-10-26_00-04-13.jpg"
+                        class="human" alt="эксперт">
+                    <figcaption>
+                        <h2 class="name">Доктор Но́рман Озборн</h2>
+                        <span class="role">Техник по шиномонтажу и колесам</span>
+                    </figcaption>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function openPopup(name, role, description) {
+            alert(`${name}\n${role}\n${description}`);
+        }
+    </script>
+
+
+
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2 id="popup-title"></h2>
+            <img id="popup-image" src="" alt="" />
+            <p id="popup-description"></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 Porshe. Все права защищены.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="PedProject.js"></script>
+</body>
+
+</html>

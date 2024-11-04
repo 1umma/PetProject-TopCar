@@ -1,0 +1,107 @@
+body {
+    max-width:1440px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.link {
+    text-decoration:none;
+    float: right;
+    margin-right: 20px;
+    gap: 20px;
+    color:antiquewhite;
+    size: 20px;
+    padding-top:50px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+.site_text {
+    float:left;
+    margin-left: 10px;
+    color:antiquewhite;
+    margin-top:20px;
+}
+
+.link:hover {
+    text-decoration: none;
+    color :brown;
+}
+
+.section_1 {
+    position: static;
+    padding-top: 130px;
+}
+
+.card-text {
+    color:rgba(29, 28, 27, 1) ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width:fit-content;
+    gap:50px;
+    background-color:rgba(29, 28, 27, 1) ;
+}
+
+.popup {
+    display: none; /* Скрыть попап по умолчанию */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup img {
+    max-width: 100%;
+    height: auto;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color :brown;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Распределение элементов по ширине контейнера */
+    max-width: 1440px; /* Максимальная ширина страницы */
+    margin: 0 auto; /* Центрирование контейнера */
+    padding: 0 50px; /* Боковые отступы */
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.flex-item {
+    flex-basis: calc(33.33% - 20px); /* Учет боковых отступов */
+    margin-bottom: 20px; /* Отступ между строками */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img.human {
+    width: 150px; /* Размеры каждой картинки */
+    height: 150px;
+}

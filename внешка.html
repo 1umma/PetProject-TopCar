@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Глобальные внешние изменения</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(29, 28, 27, 1);
+            color: rgba(255, 255, 255, 1);
+            padding: 0 50px;
+        }
+
+        h1 {
+            color: aliceblue;
+            margin-bottom: 22px;
+        }
+
+        a {
+            transition: all 0.5s ease;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: brown;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: brown;
+            color: aliceblue;
+        }
+
+        .button:active {
+            background-color: #004080;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .text {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .images {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        figure {
+            margin: 0;
+            margin-bottom: 80px;
+        }
+
+        p {
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Глобальные внешние изменения</h1>
+    <div class="content">
+        <div class="text">
+            <p>Тюнинг кузова — обычно тюнинг кузова заключается в добавлении элементов, позволяющих улучшить
+                аэродинамические показатели автомобиля. В число этих элементов входит: спойлеры, сплиттеры (так
+                называемая
+                "губа"), дефлекторы[англ.] и диффузоры.</p>
+
+            <p>Но, есть машины, которые предназначены для очень больших скоростей, и им требуется увеличение жесткости
+                кузова. В таком случае автовладельцы прибегают к увеличению количества сварных швов, установке каркасов
+                безопасности, переварке силовых элементов кузова (лонжеронов). Помимо этих доработок, очень важна
+                безопасность. Поэтому владельцы устанавливают ковши-сиденья, которые подразумевают установку
+                пятиточечного
+                ремня безопасности, для жесткой фиксации водителя.</p>
+
+            <p>Дополнительно можно произвести облегчение кузова. Заменить некоторые детали на пластиковые, или
+                карбоновые,
+                снять шумоизоляцию автомобиля и задний ряд сидений.</p>
+        </div>
+        <div class="images">
+            <figure>
+                <img class="photo" src="https://a.d-cd.net/72427ads-960.jpg" alt="S15"
+                    title="внешка" width="400px">
+                <figcaption>Nissan Silvia S15 itasha</figcaption>
+            </figure>
+            <figure>
+                <img class="photo2"
+                    src="https://autoreview.ru/images/gallery/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/2017/December/14/TS8012V_3.jpg"
+                    alt="Supra" title="внешка" width="400px">
+                <figcaption>Smokey Nagata's Toyota Supra A80 <br><b>"Top secret"</b></br> </figcaption>
+            </figure>
+        </div>
+    </div>
+    <a href="PedProject.html" class="button">Назад к услугам</a>
+</body>
+
+</html>
